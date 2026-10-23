@@ -1,0 +1,23 @@
+{
+  "name": "denji-x-prime",
+  "version": "27.0.0",
+  "private": true,
+  "description": "denji X PRIME V27 — WhatsApp multi-bot (Baileys) with fleet rapid-fire NC, 6 rapid styles, Telegram control",
+  "type": "module",
+  "main": "bot.js",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "start:gc": "node --expose-gc bot.js"
+  },
+  "dependencies": {
+    "denji/boom": "^10.0.1",
+    "denjisockets/baileys": "6.7.24",
+    "node-cache": "^5.1.2",
+    "p-queue": "^9.3.3",
+    "pino": "^9.5.0",
+    "yt-search": "^2.13.1"
+  }
+}
